@@ -1,0 +1,9 @@
+# Credenciales de Google Cloud
+*.json
+
+# Archivos temporales de Python
+venv/
+.venv/
+.ipynb_checkpoints/
+
+git add .
