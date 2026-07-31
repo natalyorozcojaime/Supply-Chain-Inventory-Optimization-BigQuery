@@ -75,6 +75,7 @@ To unlock true business value, we developed a portable SQL logical routing mecha
 * **Haircare:** 15 SKUs under Risk | 18 Healthy | 1 Overstock
 * **Cosmetics:** 13 SKUs under Risk | 13 Healthy | 0 Overstock
 
+```Python
 import matplotlib.pyplot as plt
 df_plot = df_matriz.set_index('product_type')[['understock_risk_count', 'healthy_count', 'overstock_count']]
 ax = df_plot.plot(
@@ -92,7 +93,7 @@ plt.grid(axis='y', linestyle='--', alpha=0.7)
 
 plt.tight_layout()
 plt.show()
-
+```
 ### 🔍 Strategic BI Conclusions
 The diagnostic matrix completely refutes the initial assumption of a generalized overstock issue. Instead, the business faces a systemic **Understock Crisis**:
 
