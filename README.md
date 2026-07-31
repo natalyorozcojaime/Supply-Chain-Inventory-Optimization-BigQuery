@@ -103,7 +103,7 @@ plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.tight_layout()
 plt.show()
 ```
-
+----
 ### 🔍 Strategic BI Conclusions
 The diagnostic matrix completely refutes the initial assumption of a generalized overstock issue. Instead, the business faces a systemic **Understock Crisis**:
 
