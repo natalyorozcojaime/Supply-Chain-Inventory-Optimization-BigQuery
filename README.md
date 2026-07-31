@@ -26,4 +26,4 @@ By querying raw transaction logs and inventory tables directly in the cloud, thi
      [ Google BigQuery ] ──(SQL Window Functions & CTEs)──► [ Inventory Optimization Engine ]
                                                                         │
                                                                         ▼
-                                                             [ Looker Studio / Power BI ]
+                                                                  [ Power BI ]
